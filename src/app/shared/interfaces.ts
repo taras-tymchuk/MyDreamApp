@@ -3,7 +3,7 @@ export interface ICustomer {
     name: string;
     city: string;
     orderTotal?: number;
-    customerService: any;
+    customerSince: any;
 }
 
 export interface IOrder {
