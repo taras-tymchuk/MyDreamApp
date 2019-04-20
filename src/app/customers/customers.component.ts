@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit } from '@angular/core';
+
+import {ICustomer} from '../shared/interfaces';
 
 import {ICustomer} from '../shared/interfaces'
 
