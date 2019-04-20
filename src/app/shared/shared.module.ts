@@ -4,4 +4,5 @@ import { NgModule } from '@angular/core';
     declarations: [],
     exports: []
 })
+
 export class SharedModule { }
