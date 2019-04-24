@@ -13,9 +13,9 @@ export class FilterTextBoxComponent implements OnInit {
         return this._filter;
     }
 
-    set filter(val: string) { 
+    set filter(val: string) {
         this._filter = val;
-        this.changed.emit(this.filter); //Raise changed event
+        this.changed.emit(this.filter);
     }
 
     @Output() changed: EventEmitter<string> = new EventEmitter<string>();
